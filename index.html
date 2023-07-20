@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="main-content-wrapper">
+      <header class="header-wrapper">
+        <h3 class="header-logo">THIS INTERIOR</h3>
+        <div class="nav-items-wrapper" id="li-wrapper">
+          <li class="nav-item nav-item-isActive">Home</li>
+          <li class="nav-item">Collection</li>
+          <li class="nav-item">About</li>
+          <li class="nav-item">Contact</li>
+        </div>
+
+        <div class="nav-items-burger-wrapper" id="nav-burger">
+          <div class="nav-burger-bar"></div>
+          <div class="nav-burger-bar"></div>
+          <div class="nav-burger-bar"></div>
+        </div>
+
+        <div class="nav-items-burger-opened" id="burger-opened">
+          <div class="nav-items-burger-cross-container">
+            <div class="nav-items-burger-opened-cross-wrapper" id="cross">
+              <div class="nav-burger-bar nav-burger-bar-opened nav-items-burger-opened-cross-one"></div>
+              <div class="nav-burger-bar nav-burger-bar-opened nav-items-burger-opened-cross-two"></div>
+            </div>
+          </div>
+
+          <div class="nav-items-burger-opened-wrapper" id="li-wrapper-burger">
+            <li class="nav-item nav-item-isActive">Home</li>
+            <li class="nav-item">Collection</li>
+            <li class="nav-item">About</li>
+            <li class="nav-item">Contact</li>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <div class="main-sidebar-left-wrapper">
+          <h1 class="main-headline">Modern interior</h1>
+          <p class="main-description">A full-Service residential
+             & commercial interior design
+              and staging company offering
+               professional organizing
+                & eco-services.
+          </p>
+
+          <div class="main-cta-wrapper">
+            <a href="#" class="main-cta">Read more</a>
+            <img class="main-cta-img" src="./photos/arrow.png" alt="arrow-right">
+          </div>
+
+        </div>
+
+        <div class="main-sidebar-right-wrapper">
+          <div class="sidebar-right-background-wrapper">
+            <img class="sidebar-right-background" src="./photos/photo1.png" alt="background">
+          </div>
+
+          <div class="sidebar-right-card-wrapper">
+            <div class="sidebar-right-card-headline-wrapper">
+              <img class="sidebar-right-card-profile-pic" src="./photos/photo2.png" alt="profile-pic">
+              <div class="sidebar-right-card-description-wrapper">
+                <h3 class="sidebar-right-card-name">Aliza Webber</h3>
+                <p class="sidebar-right-card-role">Interior designer</p>
+              </div>
+            </div>
+
+            <h2 class="sidebar-right-card-headline">Designed in 2020 by Aliza Webber</h2>
+          </div>
+        </div>
+      </main>
+    </div>
+</body>
+</html>
